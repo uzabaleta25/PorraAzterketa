@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: _3POO_5
+  commentId: N:_3POO_5
+  id: _3POO_5
+  children:
+  - _3POO_5.Porra
+  - _3POO_5.Program
+  langs:
+  - csharp
+  - vb
+  name: _3POO_5
+  nameWithType: _3POO_5
+  fullName: _3POO_5
+  type: Namespace
+  assemblies:
+  - 3POO_5
+references:
+- uid: _3POO_5.Porra
+  commentId: T:_3POO_5.Porra
+  href: _3POO_5.Porra.html
+  name: Porra
+  nameWithType: Porra
+  fullName: _3POO_5.Porra
+- uid: _3POO_5.Program
+  commentId: T:_3POO_5.Program
+  href: _3POO_5.Program.html
+  name: Program
+  nameWithType: Program
+  fullName: _3POO_5.Program

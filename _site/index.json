@@ -1,0 +1,32 @@
+{
+  "api/_3POO_5.Porra.html": {
+    "href": "api/_3POO_5.Porra.html",
+    "title": "Class Porra | PorraAzterketa",
+    "summary": "Class Porra Namespace _3POO_5 Assembly 3POO_5.dll Represents a sweepstake (Porra) containing predictions and accumulated points. public class Porra Inheritance object Porra Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Constructors Porra(string, string, string, string, int) Initializes a new instance of the Porra class. public Porra(string i, string ir, string fi, string go, int p) Parameters i string The name of the participant. ir string The predicted winner. fi string The predicted finalist. go string The predicted goalscorer. p int The initial points. Properties Finalista Gets or sets the predicted finalist or runner-up. public string Finalista { get; set; } Property Value string Goleatzailea Gets or sets the predicted goalscorer. public string Goleatzailea { get; set; } Property Value string Irabazlea Gets or sets the predicted winner. public string Irabazlea { get; set; } Property Value string Izena Gets or sets the name of the participant or team. public string Izena { get; set; } Property Value string Puntuak Gets or sets the accumulated points. public int Puntuak { get; set; } Property Value int Methods AsmatuBiFinalistak() Calculates the points for correctly guessing both finalists. public int AsmatuBiFinalistak() Returns int The accumulated points plus 20 bonus points. AsmatuIrabazlea() Calculates the points for correctly guessing the winner. public int AsmatuIrabazlea() Returns int The accumulated points plus 25 bonus points. Goleko() Calculates the points for a goal. public int Goleko() Returns int The accumulated points plus 3 bonus points. Pantailaratu() Returns a detailed string representation of the sweepstake predictions. public string Pantailaratu() Returns string A formatted string with all the sweepstake details. ToString() Returns a simple string representation of the sweepstake. public override string ToString() Returns string A string with properties separated by hyphens."
+  },
+  "api/_3POO_5.Program.html": {
+    "href": "api/_3POO_5.Program.html",
+    "title": "Class Program | PorraAzterketa",
+    "summary": "Class Program Namespace _3POO_5 Assembly 3POO_5.dll The main class of the application that handles the user interface and data processing. public class Program Inheritance object Program Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "api/_3POO_5.html": {
+    "href": "api/_3POO_5.html",
+    "title": "Namespace _3POO_5 | PorraAzterketa",
+    "summary": "Namespace _3POO_5 Classes Porra Represents a sweepstake (Porra) containing predictions and accumulated points. Program The main class of the application that handles the user interface and data processing."
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | PorraAzterketa",
+    "summary": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | PorraAzterketa",
+    "summary": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | PorraAzterketa",
+    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}

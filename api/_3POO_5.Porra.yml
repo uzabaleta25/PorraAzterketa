@@ -1,0 +1,743 @@
+### YamlMime:ManagedReference
+items:
+- uid: _3POO_5.Porra
+  commentId: T:_3POO_5.Porra
+  id: Porra
+  parent: _3POO_5
+  children:
+  - _3POO_5.Porra.#ctor(System.String,System.String,System.String,System.String,System.Int32)
+  - _3POO_5.Porra.AsmatuBiFinalistak
+  - _3POO_5.Porra.AsmatuIrabazlea
+  - _3POO_5.Porra.Finalista
+  - _3POO_5.Porra.Goleatzailea
+  - _3POO_5.Porra.Goleko
+  - _3POO_5.Porra.Irabazlea
+  - _3POO_5.Porra.Izena
+  - _3POO_5.Porra.Pantailaratu
+  - _3POO_5.Porra.Puntuak
+  - _3POO_5.Porra.ToString
+  langs:
+  - csharp
+  - vb
+  name: Porra
+  nameWithType: Porra
+  fullName: _3POO_5.Porra
+  type: Class
+  source:
+    remote:
+      path: Desktop/3Erronka/PorraAzterketa/3POO_5Porra/Porra.cs
+      branch: main
+      repo: https://github.com/ZURE_ERABILTZAILEA/TicketBaiErronka.git
+    id: Porra
+    path: Porra.cs
+    startLine: 11
+  assemblies:
+  - 3POO_5
+  namespace: _3POO_5
+  summary: Represents a sweepstake (Porra) containing predictions and accumulated points.
+  example: []
+  syntax:
+    content: public class Porra
+    content.vb: Public Class Porra
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: _3POO_5.Porra.Izena
+  commentId: P:_3POO_5.Porra.Izena
+  id: Izena
+  parent: _3POO_5.Porra
+  langs:
+  - csharp
+  - vb
+  name: Izena
+  nameWithType: Porra.Izena
+  fullName: _3POO_5.Porra.Izena
+  type: Property
+  source:
+    remote:
+      path: Desktop/3Erronka/PorraAzterketa/3POO_5Porra/Porra.cs
+      branch: main
+      repo: https://github.com/ZURE_ERABILTZAILEA/TicketBaiErronka.git
+    id: Izena
+    path: Porra.cs
+    startLine: 19
+  assemblies:
+  - 3POO_5
+  namespace: _3POO_5
+  summary: Gets or sets the name of the participant or team.
+  example: []
+  syntax:
+    content: public string Izena { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Izena As String
+  overload: _3POO_5.Porra.Izena*
+- uid: _3POO_5.Porra.Irabazlea
+  commentId: P:_3POO_5.Porra.Irabazlea
+  id: Irabazlea
+  parent: _3POO_5.Porra
+  langs:
+  - csharp
+  - vb
+  name: Irabazlea
+  nameWithType: Porra.Irabazlea
+  fullName: _3POO_5.Porra.Irabazlea
+  type: Property
+  source:
+    remote:
+      path: Desktop/3Erronka/PorraAzterketa/3POO_5Porra/Porra.cs
+      branch: main
+      repo: https://github.com/ZURE_ERABILTZAILEA/TicketBaiErronka.git
+    id: Irabazlea
+    path: Porra.cs
+    startLine: 24
+  assemblies:
+  - 3POO_5
+  namespace: _3POO_5
+  summary: Gets or sets the predicted winner.
+  example: []
+  syntax:
+    content: public string Irabazlea { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Irabazlea As String
+  overload: _3POO_5.Porra.Irabazlea*
+- uid: _3POO_5.Porra.Finalista
+  commentId: P:_3POO_5.Porra.Finalista
+  id: Finalista
+  parent: _3POO_5.Porra
+  langs:
+  - csharp
+  - vb
+  name: Finalista
+  nameWithType: Porra.Finalista
+  fullName: _3POO_5.Porra.Finalista
+  type: Property
+  source:
+    remote:
+      path: Desktop/3Erronka/PorraAzterketa/3POO_5Porra/Porra.cs
+      branch: main
+      repo: https://github.com/ZURE_ERABILTZAILEA/TicketBaiErronka.git
+    id: Finalista
+    path: Porra.cs
+    startLine: 29
+  assemblies:
+  - 3POO_5
+  namespace: _3POO_5
+  summary: Gets or sets the predicted finalist or runner-up.
+  example: []
+  syntax:
+    content: public string Finalista { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Finalista As String
+  overload: _3POO_5.Porra.Finalista*
+- uid: _3POO_5.Porra.Goleatzailea
+  commentId: P:_3POO_5.Porra.Goleatzailea
+  id: Goleatzailea
+  parent: _3POO_5.Porra
+  langs:
+  - csharp
+  - vb
+  name: Goleatzailea
+  nameWithType: Porra.Goleatzailea
+  fullName: _3POO_5.Porra.Goleatzailea
+  type: Property
+  source:
+    remote:
+      path: Desktop/3Erronka/PorraAzterketa/3POO_5Porra/Porra.cs
+      branch: main
+      repo: https://github.com/ZURE_ERABILTZAILEA/TicketBaiErronka.git
+    id: Goleatzailea
+    path: Porra.cs
+    startLine: 34
+  assemblies:
+  - 3POO_5
+  namespace: _3POO_5
+  summary: Gets or sets the predicted goalscorer.
+  example: []
+  syntax:
+    content: public string Goleatzailea { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Goleatzailea As String
+  overload: _3POO_5.Porra.Goleatzailea*
+- uid: _3POO_5.Porra.Puntuak
+  commentId: P:_3POO_5.Porra.Puntuak
+  id: Puntuak
+  parent: _3POO_5.Porra
+  langs:
+  - csharp
+  - vb
+  name: Puntuak
+  nameWithType: Porra.Puntuak
+  fullName: _3POO_5.Porra.Puntuak
+  type: Property
+  source:
+    remote:
+      path: Desktop/3Erronka/PorraAzterketa/3POO_5Porra/Porra.cs
+      branch: main
+      repo: https://github.com/ZURE_ERABILTZAILEA/TicketBaiErronka.git
+    id: Puntuak
+    path: Porra.cs
+    startLine: 39
+  assemblies:
+  - 3POO_5
+  namespace: _3POO_5
+  summary: Gets or sets the accumulated points.
+  example: []
+  syntax:
+    content: public int Puntuak { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Puntuak As Integer
+  overload: _3POO_5.Porra.Puntuak*
+- uid: _3POO_5.Porra.#ctor(System.String,System.String,System.String,System.String,System.Int32)
+  commentId: M:_3POO_5.Porra.#ctor(System.String,System.String,System.String,System.String,System.Int32)
+  id: '#ctor(System.String,System.String,System.String,System.String,System.Int32)'
+  parent: _3POO_5.Porra
+  langs:
+  - csharp
+  - vb
+  name: Porra(string, string, string, string, int)
+  nameWithType: Porra.Porra(string, string, string, string, int)
+  fullName: _3POO_5.Porra.Porra(string, string, string, string, int)
+  type: Constructor
+  source:
+    remote:
+      path: Desktop/3Erronka/PorraAzterketa/3POO_5Porra/Porra.cs
+      branch: main
+      repo: https://github.com/ZURE_ERABILTZAILEA/TicketBaiErronka.git
+    id: .ctor
+    path: Porra.cs
+    startLine: 49
+  assemblies:
+  - 3POO_5
+  namespace: _3POO_5
+  summary: Initializes a new instance of the Porra class.
+  example: []
+  syntax:
+    content: public Porra(string i, string ir, string fi, string go, int p)
+    parameters:
+    - id: i
+      type: System.String
+      description: The name of the participant.
+    - id: ir
+      type: System.String
+      description: The predicted winner.
+    - id: fi
+      type: System.String
+      description: The predicted finalist.
+    - id: go
+      type: System.String
+      description: The predicted goalscorer.
+    - id: p
+      type: System.Int32
+      description: The initial points.
+    content.vb: Public Sub New(i As String, ir As String, fi As String, go As String, p As Integer)
+  overload: _3POO_5.Porra.#ctor*
+  nameWithType.vb: Porra.New(String, String, String, String, Integer)
+  fullName.vb: _3POO_5.Porra.New(String, String, String, String, Integer)
+  name.vb: New(String, String, String, String, Integer)
+- uid: _3POO_5.Porra.Pantailaratu
+  commentId: M:_3POO_5.Porra.Pantailaratu
+  id: Pantailaratu
+  parent: _3POO_5.Porra
+  langs:
+  - csharp
+  - vb
+  name: Pantailaratu()
+  nameWithType: Porra.Pantailaratu()
+  fullName: _3POO_5.Porra.Pantailaratu()
+  type: Method
+  source:
+    remote:
+      path: Desktop/3Erronka/PorraAzterketa/3POO_5Porra/Porra.cs
+      branch: main
+      repo: https://github.com/ZURE_ERABILTZAILEA/TicketBaiErronka.git
+    id: Pantailaratu
+    path: Porra.cs
+    startLine: 62
+  assemblies:
+  - 3POO_5
+  namespace: _3POO_5
+  summary: Returns a detailed string representation of the sweepstake predictions.
+  example: []
+  syntax:
+    content: public string Pantailaratu()
+    return:
+      type: System.String
+      description: A formatted string with all the sweepstake details.
+    content.vb: Public Function Pantailaratu() As String
+  overload: _3POO_5.Porra.Pantailaratu*
+- uid: _3POO_5.Porra.ToString
+  commentId: M:_3POO_5.Porra.ToString
+  id: ToString
+  parent: _3POO_5.Porra
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Porra.ToString()
+  fullName: _3POO_5.Porra.ToString()
+  type: Method
+  source:
+    remote:
+      path: Desktop/3Erronka/PorraAzterketa/3POO_5Porra/Porra.cs
+      branch: main
+      repo: https://github.com/ZURE_ERABILTZAILEA/TicketBaiErronka.git
+    id: ToString
+    path: Porra.cs
+    startLine: 71
+  assemblies:
+  - 3POO_5
+  namespace: _3POO_5
+  summary: Returns a simple string representation of the sweepstake.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: A string with properties separated by hyphens.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: _3POO_5.Porra.ToString*
+- uid: _3POO_5.Porra.AsmatuIrabazlea
+  commentId: M:_3POO_5.Porra.AsmatuIrabazlea
+  id: AsmatuIrabazlea
+  parent: _3POO_5.Porra
+  langs:
+  - csharp
+  - vb
+  name: AsmatuIrabazlea()
+  nameWithType: Porra.AsmatuIrabazlea()
+  fullName: _3POO_5.Porra.AsmatuIrabazlea()
+  type: Method
+  source:
+    remote:
+      path: Desktop/3Erronka/PorraAzterketa/3POO_5Porra/Porra.cs
+      branch: main
+      repo: https://github.com/ZURE_ERABILTZAILEA/TicketBaiErronka.git
+    id: AsmatuIrabazlea
+    path: Porra.cs
+    startLine: 80
+  assemblies:
+  - 3POO_5
+  namespace: _3POO_5
+  summary: Calculates the points for correctly guessing the winner.
+  example: []
+  syntax:
+    content: public int AsmatuIrabazlea()
+    return:
+      type: System.Int32
+      description: The accumulated points plus 25 bonus points.
+    content.vb: Public Function AsmatuIrabazlea() As Integer
+  overload: _3POO_5.Porra.AsmatuIrabazlea*
+- uid: _3POO_5.Porra.AsmatuBiFinalistak
+  commentId: M:_3POO_5.Porra.AsmatuBiFinalistak
+  id: AsmatuBiFinalistak
+  parent: _3POO_5.Porra
+  langs:
+  - csharp
+  - vb
+  name: AsmatuBiFinalistak()
+  nameWithType: Porra.AsmatuBiFinalistak()
+  fullName: _3POO_5.Porra.AsmatuBiFinalistak()
+  type: Method
+  source:
+    remote:
+      path: Desktop/3Erronka/PorraAzterketa/3POO_5Porra/Porra.cs
+      branch: main
+      repo: https://github.com/ZURE_ERABILTZAILEA/TicketBaiErronka.git
+    id: AsmatuBiFinalistak
+    path: Porra.cs
+    startLine: 89
+  assemblies:
+  - 3POO_5
+  namespace: _3POO_5
+  summary: Calculates the points for correctly guessing both finalists.
+  example: []
+  syntax:
+    content: public int AsmatuBiFinalistak()
+    return:
+      type: System.Int32
+      description: The accumulated points plus 20 bonus points.
+    content.vb: Public Function AsmatuBiFinalistak() As Integer
+  overload: _3POO_5.Porra.AsmatuBiFinalistak*
+- uid: _3POO_5.Porra.Goleko
+  commentId: M:_3POO_5.Porra.Goleko
+  id: Goleko
+  parent: _3POO_5.Porra
+  langs:
+  - csharp
+  - vb
+  name: Goleko()
+  nameWithType: Porra.Goleko()
+  fullName: _3POO_5.Porra.Goleko()
+  type: Method
+  source:
+    remote:
+      path: Desktop/3Erronka/PorraAzterketa/3POO_5Porra/Porra.cs
+      branch: main
+      repo: https://github.com/ZURE_ERABILTZAILEA/TicketBaiErronka.git
+    id: Goleko
+    path: Porra.cs
+    startLine: 98
+  assemblies:
+  - 3POO_5
+  namespace: _3POO_5
+  summary: Calculates the points for a goal.
+  example: []
+  syntax:
+    content: public int Goleko()
+    return:
+      type: System.Int32
+      description: The accumulated points plus 3 bonus points.
+    content.vb: Public Function Goleko() As Integer
+  overload: _3POO_5.Porra.Goleko*
+references:
+- uid: _3POO_5
+  commentId: N:_3POO_5
+  href: _3POO_5.html
+  name: _3POO_5
+  nameWithType: _3POO_5
+  fullName: _3POO_5
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: _3POO_5.Porra.Izena*
+  commentId: Overload:_3POO_5.Porra.Izena
+  href: _3POO_5.Porra.html#_3POO_5_Porra_Izena
+  name: Izena
+  nameWithType: Porra.Izena
+  fullName: _3POO_5.Porra.Izena
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: _3POO_5.Porra.Irabazlea*
+  commentId: Overload:_3POO_5.Porra.Irabazlea
+  href: _3POO_5.Porra.html#_3POO_5_Porra_Irabazlea
+  name: Irabazlea
+  nameWithType: Porra.Irabazlea
+  fullName: _3POO_5.Porra.Irabazlea
+- uid: _3POO_5.Porra.Finalista*
+  commentId: Overload:_3POO_5.Porra.Finalista
+  href: _3POO_5.Porra.html#_3POO_5_Porra_Finalista
+  name: Finalista
+  nameWithType: Porra.Finalista
+  fullName: _3POO_5.Porra.Finalista
+- uid: _3POO_5.Porra.Goleatzailea*
+  commentId: Overload:_3POO_5.Porra.Goleatzailea
+  href: _3POO_5.Porra.html#_3POO_5_Porra_Goleatzailea
+  name: Goleatzailea
+  nameWithType: Porra.Goleatzailea
+  fullName: _3POO_5.Porra.Goleatzailea
+- uid: _3POO_5.Porra.Puntuak*
+  commentId: Overload:_3POO_5.Porra.Puntuak
+  href: _3POO_5.Porra.html#_3POO_5_Porra_Puntuak
+  name: Puntuak
+  nameWithType: Porra.Puntuak
+  fullName: _3POO_5.Porra.Puntuak
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: _3POO_5.Porra.#ctor*
+  commentId: Overload:_3POO_5.Porra.#ctor
+  href: _3POO_5.Porra.html#_3POO_5_Porra__ctor_System_String_System_String_System_String_System_String_System_Int32_
+  name: Porra
+  nameWithType: Porra.Porra
+  fullName: _3POO_5.Porra.Porra
+  nameWithType.vb: Porra.New
+  fullName.vb: _3POO_5.Porra.New
+  name.vb: New
+- uid: _3POO_5.Porra.Pantailaratu*
+  commentId: Overload:_3POO_5.Porra.Pantailaratu
+  href: _3POO_5.Porra.html#_3POO_5_Porra_Pantailaratu
+  name: Pantailaratu
+  nameWithType: Porra.Pantailaratu
+  fullName: _3POO_5.Porra.Pantailaratu
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: _3POO_5.Porra.ToString*
+  commentId: Overload:_3POO_5.Porra.ToString
+  href: _3POO_5.Porra.html#_3POO_5_Porra_ToString
+  name: ToString
+  nameWithType: Porra.ToString
+  fullName: _3POO_5.Porra.ToString
+- uid: _3POO_5.Porra.AsmatuIrabazlea*
+  commentId: Overload:_3POO_5.Porra.AsmatuIrabazlea
+  href: _3POO_5.Porra.html#_3POO_5_Porra_AsmatuIrabazlea
+  name: AsmatuIrabazlea
+  nameWithType: Porra.AsmatuIrabazlea
+  fullName: _3POO_5.Porra.AsmatuIrabazlea
+- uid: _3POO_5.Porra.AsmatuBiFinalistak*
+  commentId: Overload:_3POO_5.Porra.AsmatuBiFinalistak
+  href: _3POO_5.Porra.html#_3POO_5_Porra_AsmatuBiFinalistak
+  name: AsmatuBiFinalistak
+  nameWithType: Porra.AsmatuBiFinalistak
+  fullName: _3POO_5.Porra.AsmatuBiFinalistak
+- uid: _3POO_5.Porra.Goleko*
+  commentId: Overload:_3POO_5.Porra.Goleko
+  href: _3POO_5.Porra.html#_3POO_5_Porra_Goleko
+  name: Goleko
+  nameWithType: Porra.Goleko
+  fullName: _3POO_5.Porra.Goleko
